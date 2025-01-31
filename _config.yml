@@ -1,26 +1,22 @@
-# Jekyll 配置文件，适用于 GitHub Pages
+# Jekyll 配置文件
+title: "Ruby Zhang's Homepage"
+author: "Ruby Zhang"
+email: "your_email@example.com"
+description: "This is Ruby Zhang's personal homepage."
+theme: minima  # 你也可以换成其他 GitHub Pages 支持的主题
+baseurl: "/try.github.io"
+url: "https://rubyz​hang166.github.io"
 
-# 站点基本信息
-title: My Jekyll Blog
-author: RubyZhang166
-description: "A simple Jekyll blog hosted on GitHub Pages."
-
-# 主题
-theme: minima  # GitHub Pages 内置主题
-
-# Markdown 解析器
-markdown: kramdown
-
-# 导航栏
+# 主页显示文章
+show_excerpts: true
 header_pages:
   - about.md
-  - blog.md
+  - research.md
+  - publications.md
+  - teaching.md
+  - contact.md
 
-# 站点 URL（改成你的 GitHub Pages 地址）
-url: "https://rubyz​hang166.github.io"
-baseurl: "/try.github.io"
-
-# GitHub Pages 允许的插件
+# 插件
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
