@@ -1,0 +1,26 @@
+# Jekyll 配置文件，适用于 GitHub Pages
+
+# 站点基本信息
+title: My Jekyll Blog
+author: RubyZhang166
+description: "A simple Jekyll blog hosted on GitHub Pages."
+
+# 主题
+theme: minima  # GitHub Pages 内置主题
+
+# Markdown 解析器
+markdown: kramdown
+
+# 导航栏
+header_pages:
+  - about.md
+  - blog.md
+
+# 站点 URL（改成你的 GitHub Pages 地址）
+url: "https://rubyz​hang166.github.io"
+baseurl: "/try.github.io"
+
+# GitHub Pages 允许的插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
